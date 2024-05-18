@@ -1,0 +1,149 @@
+body{
+    background-color:rgb(87, 179, 167);
+    color:white;
+    font-family: "Poppins", sans-serif;
+}
+main{
+    padding:10px 0;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 60px;
+    background-color:rgb(87, 179, 167);
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+}
+nav ul li{
+    list-style:none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(205, 215, 214);
+}
+nav ul li a img{
+    width:62px;
+}
+nav ul a img{
+    width:18px;
+}
+.left{
+    cursor:pointer;
+}
+.left a{
+    font-size:1.7rem;
+    text-decoration: none;
+    color:white;
+}
+        
+
+.intro{
+    font-size:37px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+.box{
+    margin:113px 132px;
+    text-align:center
+}
+.buttons button{
+    padding:9px 14px;
+    border-radius:22px;
+    color:black;
+    background-color:rgb(87, 179, 167);
+    font-weight:bold;
+    font-size:16px;
+    margin:0 3px;
+    cursor:pointer;
+}
+.buttons button:hover{
+    color:rgb(87, 179, 167);
+    background-color:rgb(205, 215, 214);
+}
+
+.leftSection img{
+    height:60vh;  
+}
+.rightSection{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+.about{
+    justify-content:center
+}
+.about img{
+    width:80vw;
+    padding:0 115px;
+    size:max(1680px, 100vw);
+}
+.about h1{
+    font-size:60px;
+    text-align:center;
+    margin: 15px
+}
+.about h4{
+    font-weight: 100;
+    font-size:19px;
+    text-align:center;
+    height:68px;
+}
+.about h2{
+    text-align:center;
+    margin: 15px
+}
+.about p{
+    font-size:larger;
+    text-align:center;
+    padding:0 115px;
+}
+.seperation{
+    height:7px;
+    background:rgb(255, 255, 255);
+}
+.netflix{
+    padding:40px 0;
+    display:flex;
+  justify-content:center;
+  max-width:86vw;
+  height:50vh;
+  color:white;
+  margin:auto;
+  align-items:center;
+}
+.secvid video{
+    width: 35.5vw;
+  }
+  section.netflix> div{
+    padding:0 17px;
+    display:flex;
+    flex-direction:column;
+  }
+  section.netflix> div :nth-child(1){
+    font-size:48px;
+    font-weight:bolder;
+  }
+  section.netflix> div :nth-child(2){
+    font-size:20px;
+  }
+  section.netflix> div :nth-child(2) a{
+    font-size:20px;
+    color:black;
+  }
+  .secvid img{
+    width: 35.5vw;
+  }
+  .scroll{
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    color:black;
+  }

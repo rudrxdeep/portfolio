@@ -1,0 +1,94 @@
+
+body{
+    background-color:rgb(87, 179, 167);
+    color:white;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 73px;
+    background-color:rgb(87, 179, 167);
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+}
+nav ul li{
+    list-style:none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(205, 215, 214);
+}
+nav ul li a img{
+    width:62px;
+}
+nav ul a img{
+    width:18px;
+}
+.left{
+    cursor:pointer;
+}
+.left a{
+    font-size:1.5rem;
+    text-decoration: none;
+    color:white;
+}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+}
+main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	width: 500px;
+	padding: 30px;
+	border: 1px solid #eeeeee;
+	border-radius: 10px;
+	background-color:rgb(50, 100, 93);
+}
+h4{
+	margin-bottom: 10px;
+	font-size: 24px;
+	color: white;
+}
+input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+label{
+    color:white;
+}
+#form-check{
+    flex-direction:row;
+ }
+#form-check input{
+ width:26px
+}
+textarea{
+	width: 100%;
+	padding: 10px;
+}
+#submit{
+	border: none;
+	background-color: orangered;
+	color: white;
+	width: 200px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+#submit:hover{
+	background-color: #333333;
+}
